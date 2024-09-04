@@ -106,6 +106,7 @@ function ProjectsVariantABC(props) {
                             </div>
                         )}
                         <h3>{project.title}</h3>
+                        <h4 className='mt-3'>{project.subtitle}</h4>
                         {showDescription && project.description && <p className="text-lg mt-5">{project.description}</p>}
                         {showReadMoreLink && (
                             <div className="mt-8">

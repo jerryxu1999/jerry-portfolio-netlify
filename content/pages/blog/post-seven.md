@@ -2,10 +2,9 @@
 type: PostLayout
 title: Habits of highly productive web developers ⌨️
 colors: colors-a
-date: '2024-06-10'
+date: '2024-09-03'
 author: content/data/team/doris-soto.json
-excerpt: >-
-  More context that may or may not be helpful
+excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image1.jpg
@@ -52,7 +51,7 @@ bottomSections:
     showReadMoreLink: true
   - type: ContactSection
     backgroundSize: full
-    title: 'Stay up-to-date with my words ✍️'
+    title: Stay up-to-date with my words ✍️
     colors: colors-f
     form:
       type: FormBlock

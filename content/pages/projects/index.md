@@ -16,7 +16,7 @@ projectFeed:
   showDescription: true
   showReadMoreLink: true
   showFeaturedImage: true
-  variant: variant-a
+  variant: default
   styles:
     self:
       width: narrow
@@ -25,74 +25,100 @@ projectFeed:
         - pl-4
         - pr-4
         - pb-12
+  title: ''
 styles:
   title:
     textAlign: left
-bottomSections:
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+bottomSections: []
+topSections:
+  - type: FeaturedProjectsSection
+    subtitle: ''
+    actions: []
+    projects:
+      - content/pages/projects/project-four.md
+      - content/pages/projects/project-five.md
     colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
+    variant: variant-d
+    elementId: ''
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
     styles:
       self:
         height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
+        width: wide
         padding:
           - pt-24
           - pb-24
-          - pr-4
           - pl-4
-        alignItems: center
+          - pr-4
         justifyContent: center
-        flexDirection: row
       title:
         textAlign: left
-      text:
+      subtitle:
         textAlign: left
+      actions:
+        justifyContent: center
+    title: 2024 - 2025
+  - type: FeaturedProjectsSection
+    subtitle: ''
+    actions: []
+    projects:
+      - content/pages/projects/project-one.md
+      - content/pages/projects/project-two.md
+    colors: colors-f
+    variant: variant-d
+    elementId: ''
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
+    title: 2023 - 2024
+  - type: FeaturedProjectsSection
+    subtitle: ''
+    actions: []
+    projects:
+      - content/pages/projects/project-three.md
+      - content/pages/projects/project-six.md
+    colors: colors-f
+    variant: variant-d
+    elementId: ''
+    showDate: false
+    showDescription: true
+    showFeaturedImage: true
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
+    title: 2022 - 2023
 ---

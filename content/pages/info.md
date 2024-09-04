@@ -1,10 +1,10 @@
 ---
 type: PageLayout
-title: About
+title: About Me
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg4.jpg
+  url: /images/featured-Image3.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -13,14 +13,18 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >+
+      #### Hello! I am a dedicated Game Developer currently pursuing Master of
+      Science in Computer Science with a specialization in Game Development at
+      the University of Southern California. My expertise spans various facets
+      of game development, including gameplay design, programming and engine
+      development. If you are as enthusiastic about the future of gaming as I
+      am, I invite you to connect with me. Let's explore the infinite
+      possibility of games and create something extraordinary!
+
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/IMG_3850.jpg
       altText: Hero image
     styles:
       self:
@@ -46,6 +50,8 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
+    title: About Me
+    subtitle: Jiyan (Jerry) Xu
   - type: DividerSection
     styles:
       self:
@@ -60,31 +66,32 @@ sections:
         borderStyle: solid
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: 'I worked with these tools:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
+        url: /images/Unity-Symbol.png
         altText: Logo one
         caption: Logo one
       - type: ImageBlock
-        url: /images/logo2.svg
+        url: /images/Unreal_Engine-Logo.wine.png
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
+        url: /images/icon_color_outline.png
+        altText: Logo five
+        caption: Logo five
       - type: ImageBlock
-        url: /images/logo4.svg
+        url: /images/66c33251292331d29585d32632c3870651b66e01.png
         altText: Logo four
         caption: Logo four
       - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
-    spacing: 3
+        url: /images/blender.png
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
+    spacing: 80
     columns: 5
-    aspectRatio: auto
+    aspectRatio: '1:1'
     showCaption: false
     enableHover: false
     styles:
@@ -124,15 +131,7 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
+            url: 'https://github.com/jerryxu1999'
         styles:
           self:
             textAlign: left
@@ -140,15 +139,7 @@ sections:
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+            url: 'https://www.linkedin.com/in/jiyanxu/'
         styles:
           self:
             textAlign: left
@@ -156,15 +147,7 @@ sections:
         actions:
           - type: Link
             label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
+            url: ''
         styles:
           self:
             textAlign: left
@@ -207,21 +190,15 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
-      - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
-      - type: Label
-        label: Next.js
-      - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
         label: C++
       - type: Label
-        label: Swift
+        label: C#
+      - type: Label
+        label: FMOD
+      - type: Label
+        label: Cinemachine
+      - type: Label
+        label: Animation & Simulation
   - type: DividerSection
     styles:
       self:
@@ -239,7 +216,9 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      jiyanxu\@usc.edu
+
+      jerryxu1130\@gmail.com
   - type: DividerSection
     styles:
       self:
@@ -257,48 +236,8 @@ sections:
     items:
       - type: FeaturedItem
         subtitle: 'Experience:'
-        text: |-
-          **Current**
-
-          * freelance @freelance.me
-
-          **2018-2021**
-
-          * fullstack at this startup
-
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-      - type: FeaturedItem
-        subtitle: 'Education:'
-        text: |-
-          **2015-2018**
-
-          * ba computer sciense at a semi fancy school
-
-          **2014**
-
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
+        text: |
+          DON'T LOOK AT THIS, UNFORTUNATELY I DON'T HAVE ANY EXPERIENCE :(
         styles:
           self:
             textAlign: left
@@ -347,7 +286,7 @@ sections:
         borderStyle: solid
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "Let’s talk...\U0001F4AC"
     colors: colors-f
     form:
       type: FormBlock
@@ -381,11 +320,6 @@ sections:
           isRequired: true
           width: full
           type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
       submitLabel: "Submit \U0001F680"
       styles:
         submitLabel:
