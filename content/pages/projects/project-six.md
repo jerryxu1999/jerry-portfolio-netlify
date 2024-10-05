@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Master Dancer
 date: '2024-09-03'
-client: Awesome client
+client: UIUC Dance
 description: >-
   Master Dancer is an educational VR project, aiming to make the player learn
   modern dance movements inspired from American dancer Loie Fuller.
@@ -13,8 +13,8 @@ featuredImage:
   caption: ''
   elementId: ''
 media:
-  type: ImageBlock
-  url: /images/Screenshot 2024-09-03 at 10.23.27 PM.png
+  type: VideoBlock
+  url: 'https://youtu.be/E6J6z8LzSrk'
   altText: Project image
   caption: Caption of the image
   elementId: ''
@@ -28,7 +28,7 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-### NOTE: Can't share image or footage without the permission of the project's owner.
+### NOTE: Please don't download/share the video without the permission of the project's owner.
 
 #### *C++ Blueprint Unreal Engine VR*
 
@@ -39,6 +39,4 @@ backgroundImage:
 *   Save/load system
 
 *   Animation setup
-
-
 

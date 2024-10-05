@@ -4,7 +4,7 @@ title: Crystal Vision
 subtitle: Engineer
 colors: colors-a
 date: '2022-01-22'
-client: Awesome client
+client: UIUC CEE
 description: >-
   Crystal Vision is a VR research project, aiming to improve student's
   understanding of the concept in CEE. Students can interact with in-game 3D

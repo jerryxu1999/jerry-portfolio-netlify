@@ -66,6 +66,16 @@
                 "label": "GitHub",
                 "url": "https://github.com/jerryxu1999",
                 "altText": "Netlify templates"
+            },
+            {
+                "type": "Link",
+                "label": "itch.io",
+                "altText": "",
+                "url": "https://itch.io/profile/jx-1999",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "contacts": {

@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Donuts!
 date: '2024-09-03'
-client: Awesome client
+client: USC Games
 description: Donuts is an arcade driving game. It's Crazy Taxi meets Tony Hawks.
 featuredImage:
   type: ImageBlock
@@ -28,7 +28,11 @@ backgroundImage:
 ---
 C# Unity
 
+THE PROJECT IS UNDER DEVELOPMENT
+
 Main Responsibility:
 
-*   Vehicle controller
+*   Suspension-based physics vehicle controller
+*   Trick Implementation (Air rotations, rail grinding, etc)
+*   Trick detection and completion check
 

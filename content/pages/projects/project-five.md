@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Reflection Eternal
 date: '2024-09-03'
-client: Awesome client
+client: USC Games
 description: Reflection Enternal is a 2D rhythm combat game.
 featuredImage:
   type: ImageBlock
@@ -26,9 +26,13 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-C++ Blueprint Unreal Engine
+Unreal Engine, PaperZD
+
+THE PROJECT IS UNDER DEVELOPMENT
 
 Main Responsibility:
 
-*   Combat input and hit registration
+*   Input registration and combo detection
+*   Dynamic hitbox generation
+*   Hitbox detection and interaction
 
